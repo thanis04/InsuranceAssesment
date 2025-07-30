@@ -1,0 +1,52 @@
+## Ignore build results
+bin/
+obj/
+out/
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Visual Studio files
+.vscode/
+.vs/
+
+## Ignore Rider IDE files
+.idea/
+
+## Ignore .NET secrets and configs
+secrets.json
+appsettings.Development.json
+
+## Ignore publish output
+*.Publish.xml
+*.publishsettings
+
+## Ignore NuGet packages folder (if used)
+packages/
+*.nupkg
+*.snupkg
+
+## Ignore logs and crash dumps
+*.log
+*.tlog
+*.dmp
+
+## Ignore test results
+TestResults/
+
+## Ignore ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
+## Ignore migrations snapshot (optional)
+*Migrations/ModelSnapshot.cs
+
+## Ignore environment files (optional)
+.env
+
+## Ignore OS-specific files
+.DS_Store
+Thumbs.db
